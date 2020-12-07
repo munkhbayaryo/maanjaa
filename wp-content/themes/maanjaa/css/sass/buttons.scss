@@ -1,0 +1,122 @@
+/*=================================================================*/
+/*                     BUTTONS
+/*=================================================================*/
+button, input[type=submit] {
+    outline: 0 !important;
+    box-shadow: none !important;
+    border: 0;
+    @include transition(.2s);
+}
+
+.btn {
+    border-radius: 5px;
+    font-family: $fonthead;
+    font-size: 14px;
+    font-weight: 500;
+    overflow: hidden;
+    padding: 6px 28px;
+    position: relative;
+    border: 0;
+    @include transition(.2s);
+}
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.btn-default {
+    color: #FFF;
+    background: $colordefault;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    &:hover {
+        color: #FFF;
+        background: #000;
+        
+    }
+}
+
+.bapf_button {
+    border-radius: 5px;
+    font-family: $fonthead;
+    font-size: 14px;
+    font-weight: 500;
+    overflow: hidden;
+    padding: 6px 28px;
+    position: relative;
+    border: 0;
+    color: #FFF;
+    background: $colordefault;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+
+.btn-alt {
+    background: transparent;
+    border: solid 1px #DBDBDB;
+    color: #707070;
+    &:hover {
+        color: #FFF;
+        background: $colordefault;
+        border-color: $colordefault;
+    }
+}
+
+.btn {
+    a {
+        border-radius: 5px !important;
+        font-family: $fonthead !important;
+        font-size: 14px !important;
+        font-weight: 500 !important;
+        overflow: hidden !important;
+        padding: 6px 28px !important;
+        height: 37px !important;
+        position: relative !important;
+        border: 0 !important;
+    }
+}
+
+.btn-alt {
+    a {
+        background: transparent !important;
+        border: solid 1px #DBDBDB !important;
+        color: #707070 !important;
+        &:hover {
+            color: #FFF !important;
+            background: $colordefault !important;
+            border-color: $colordefault !important;
+        }
+    }
+}
+
+.btn-user-menu {
+    background: transparent;
+    color: #707070;
+}
+
+.btn-full {
+    text-align: center;
+    width: 100%;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: 28px 30px;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 0;
+}
+
+.btn-sm {
+    padding: 17px 24px;
+    font-size: 14px;
+    line-height: 0;
+}
+
+.btn-xs {
+    padding: 12px 10px;
+    font-size: 12px;
+    line-height: 0;
+}

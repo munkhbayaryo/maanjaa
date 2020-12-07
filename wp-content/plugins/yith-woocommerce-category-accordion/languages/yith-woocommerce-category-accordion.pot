@@ -1,0 +1,183 @@
+# Copyright (C) 2018 YITH WooCommerce Category Accordion
+# This file is distributed under the same license as the YITH WooCommerce Category Accordion package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH WooCommerce Category Accordion 1.0.23\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/init\n"
+"POT-Creation-Date: 2018-10-24 12:32:10+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#. #-#-#-#-#  yith-woocommerce-category-accordion.pot (YITH WooCommerce Category Accordion 1.0.23)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: includes/class.yith-category-accordion-widget.php:12
+msgid "YITH WooCommerce Category Accordion"
+msgstr ""
+
+#: includes/class.yith-category-accordion-widget.php:13
+msgid "Show your categories in an accordion!"
+msgstr ""
+
+#: includes/class.yith-category-accordion-widget.php:77
+msgid "Title"
+msgstr ""
+
+#: includes/class.yith-category-accordion-widget.php:80
+msgid "Insert a title for the accordion menu"
+msgstr ""
+
+#: includes/class.yith-category-accordion-widget.php:84
+msgid "Show WooCommerce Categories"
+msgstr ""
+
+#: includes/class.yith-category-accordion-widget.php:90
+msgid "Show WooCommerce Subcategories"
+msgstr ""
+
+#: includes/class.yith-category-accordion-widget.php:96
+msgid "Show WordPress Categories"
+msgstr ""
+
+#: includes/class.yith-category-accordion-widget.php:102
+msgid "Show WordPress Subcategories"
+msgstr ""
+
+#: includes/class.yith-category-accordion-widget.php:108
+msgid "Highlight the current category"
+msgstr ""
+
+#: includes/class.yith-category-accordion-widget.php:114
+msgid "Closed accordion"
+msgstr ""
+
+#: includes/class.yith-woocommerce-category-accordion.php:140
+msgid "Premium Version"
+msgstr ""
+
+#: includes/class.yith-woocommerce-category-accordion.php:146
+msgid "Category Accordion"
+msgstr ""
+
+#: init.php:47
+msgid ""
+"YITH WooCommerce Category Accordion  is enabled but not effective. It "
+"requires WooCommerce in order to work."
+msgstr ""
+
+#: init.php:57
+msgid ""
+"You can't activate the free version of YITH WooCommerce Category Accordion "
+"while you are using the premium one."
+msgstr ""
+
+#: templates/admin/premium.php:227 templates/admin/premium.php:337
+msgid ""
+"Upgrade to %1$spremium version%2$s of %1$sYITH WooCommerce category Accordion"
+"%2$s to benefit from all features!"
+msgstr ""
+
+#: templates/admin/premium.php:230 templates/admin/premium.php:340
+msgid "UPGRADE"
+msgstr ""
+
+#: templates/admin/premium.php:231 templates/admin/premium.php:341
+msgid "to the premium version"
+msgstr ""
+
+#: templates/admin/premium.php:237
+msgid "Premium Features"
+msgstr ""
+
+#: templates/admin/premium.php:245
+msgid "Category and sublevels"
+msgstr ""
+
+#: templates/admin/premium.php:248
+msgid ""
+"Set how many categories you want to show to your users if you don't want the "
+"system considers the whole list; and there's more!%3$sIf you have created a "
+"category hierarchic structure, with different subcategories of your site, "
+"with the %1$s\"Max depth level\"%2$s option you will be able to set the "
+"plugin to show only the categories of a specific hierarchic level."
+msgstr ""
+
+#: templates/admin/premium.php:258
+msgid "Tag and menu"
+msgstr ""
+
+#: templates/admin/premium.php:261
+msgid ""
+"Not only categories: with the premium version of the plugin you can display "
+"in accordion all the %1$smenus%2$s of your site, in addition to the complete "
+"list of all %1$stags%2$s you have linked to the products of your shop. "
+msgstr ""
+
+#: templates/admin/premium.php:277
+msgid "4 styles"
+msgstr ""
+
+#: templates/admin/premium.php:280
+msgid ""
+"Four different configurable styles that you can assign to the plugin's "
+"widgets and shortcodes. %1$sDon't touch the code and get your result "
+"directly from the panel%2$s"
+msgstr ""
+
+#: templates/admin/premium.php:290
+msgid "Shortcode"
+msgstr ""
+
+#: templates/admin/premium.php:293
+msgid ""
+"Same widget features, same options, but much more freedom: %1$sadd your "
+"accordions%2$s everywhere with the shortcode. "
+msgstr ""
+
+#: templates/admin/premium.php:309
+msgid "Sorting"
+msgstr ""
+
+#: templates/admin/premium.php:312
+msgid ""
+"A good management of the category list must give the freedom to choose the "
+"sorting system to show the category in the page.%3$sThree different options: "
+"by %1$sID, name%2$s or %1$snumber%2$s of assigned elements"
+msgstr ""
+
+#: templates/admin/premium.php:322
+msgid "Pages and posts"
+msgstr ""
+
+#: templates/admin/premium.php:325
+msgid ""
+"For each widget or shortcode you set with the premium version of the plugin, "
+"you can select the pages and posts in which you don't want them to appear."
+"Moreover, the %1$s\"Hide empty\"%2$s option lets you decide to exclude the "
+"empty categories from the list, so there will be no categories without "
+"assigned elements."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://yithemes.com/themes/plugins/yith-woocommerce-category-accordion/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"With <code><strong>YITH WooCommerce Category Accordion</strong></code>you "
+"can add an accordion menu to your sidebars in a few clicks to view product "
+"or post categories! <a href =\"https://yithemes.com\">Get more plugins for "
+"your e-commerce shop on <strong>YITH</strong></a>"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "YITH"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://yithemes.com/"
+msgstr ""

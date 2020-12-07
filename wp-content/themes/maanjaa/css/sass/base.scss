@@ -1,0 +1,115 @@
+/*=================================================================*/
+/*                      BASE                              
+/*=================================================================*/
+body {
+    color: #000;
+    background-color: #fff;
+    font-family: $fontstack;
+    font-size: 14px;
+    line-height: 1.8;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.relative {
+    position: relative;
+}
+
+/*=================================================================*/
+/*                      TYPOGRAPHY                              
+/*=================================================================*/
+h1,h2,h3,h4,h5,h6 {
+    font-family: $fonthead;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 15px;
+}
+
+a {
+    color: $colordefault;
+    outline: 0;
+    &:hover {
+        color: #222;
+    }
+    &:focus {
+        outline: 0;
+    }
+}
+
+blockquote {
+    padding: 20px 20px;
+    margin: 0 0 20px;
+    font-size: 16px;
+    background: #F7F7F7;
+    border-radius: 10px;
+}
+
+blockquote p {
+    line-height: 1.6;
+}
+
+/* === Pre === */
+pre {
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 0;
+}
+
+label {
+    font-weight: 700;
+}
+
+table.tinvwl-table-manage-list  thead th {
+    vertical-align: bottom;
+    border-bottom: 1px solid #EEE;
+}
+
+table.tinvwl-table-manage-list  td, table.tinvwl-table-manage-list  th {
+    border: 1px solid #EEE;
+}
+
+table.tinvwl-table-manage-list  td, table.tinvwl-table-manage-list  th {
+    padding: 16px 25px;
+    vertical-align: top;
+}

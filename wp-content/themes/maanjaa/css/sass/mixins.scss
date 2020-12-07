@@ -1,0 +1,9 @@
+$fonthead: 'Roboto', sans-serif;
+$fontstack: 'Roboto', sans-serif;
+$colordefault: #EE4036;
+
+@mixin transition($second) {
+  -webkit-transition: all $second ease-in-out;
+    -moz-transition: all $second ease-in-out;
+        transition: all $second ease-in-out;
+}
