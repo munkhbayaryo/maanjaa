@@ -822,7 +822,7 @@ span.wishlist_products_counter_number:empty {
 }
 
 .eckb-acll__cat-item__name {
-  color: #EE4036;
+  color: #EE4036 !important;
 }
 
 .eckb-acll__title {
