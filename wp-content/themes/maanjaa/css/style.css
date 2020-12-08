@@ -817,6 +817,35 @@ span.wishlist_products_counter_number:empty {
   margin-right: 5px;
 }
 
+#eckb-article-page-container-v2 .eckb-article-content-header__article-meta {
+  color: #888;
+}
+
+.eckb-acll__cat-item__name {
+  color: #EE4036;
+}
+
+.eckb-acll__title {
+  color: #000000;
+}
+
+.eckb-article-cat-layout-list {
+  background-color: #ffffff;
+  font-size: 14px;
+  border: solid 1px #DDD;
+}
+
+#eckb-article-body .eckb-article-toc__inner {
+  border-color: #0f0f0f;
+  font-size: 14px;
+  background-color: #FFF;
+  border: solid 1px #DDD;
+}
+
+#eckb-article-page-container-v2 .eckb-article-toc .eckb-article-toc__inner ul li a {
+  border-radius: 0;
+}
+
 .woocommerce .list-mode li.product-list {
   border-bottom: solid 1px #EEE;
   padding: 0 0 20px !important;
@@ -1788,6 +1817,11 @@ header.woocommerce-Address-title {
 
 input#coupon_code {
   height: 38px;
+}
+
+label[for=payment_method_stripe] {
+  max-width: 320px;
+  min-width: 320px;
 }
 
 .wcfmmp_become_vendor_link {

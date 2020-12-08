@@ -1044,6 +1044,11 @@ input#coupon_code {
     height: 38px;
 }
 
+label[for=payment_method_stripe] {
+    max-width: 320px;
+    min-width: 320px;
+}
+
 // VENDOR
 .wcfmmp_become_vendor_link {
     background: #FFF;
